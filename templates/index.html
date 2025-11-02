@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Face Emotion Detection</title>
+</head>
+<body>
+  <h1>Upload an Image for Emotion Detection</h1>
+  <form action="/predict" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" required>
+    <button type="submit">Predict</button>
+  </form>
+</body>
+</html>
